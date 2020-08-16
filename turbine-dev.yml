@@ -11,7 +11,9 @@ turbine:
 spring:
   zipkin:
     baseUrl: http://zipkin/
-  sleuth:
+    sender: 
+      type: web
+sleuth:
     sampler:
       probability: 1.0
 
