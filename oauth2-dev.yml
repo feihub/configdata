@@ -16,7 +16,7 @@ spring:
     baseUrl: http://zipkin/
     sender: 
       type: web
-sleuth:
+  sleuth:
     sampler:
       probability: 1.0
   redis:
